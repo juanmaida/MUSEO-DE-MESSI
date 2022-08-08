@@ -1,0 +1,16 @@
+footer{
+    background-color: blue;
+    padding: 1em;
+    div{
+        background-color: white;
+        padding: 1em;
+        tr td{
+            padding: 0.2em;
+        }
+    }
+}
+.line{
+    border-top: 0.3em solid black;
+    border-bottom: 0.3em solid blue;
+    display: none;
+}
