@@ -94,6 +94,29 @@ footer {
 .body-hard {
   background-color: #0091e6; }
 
+.incio {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 3fr 1fr; }
+
+.inicio-box {
+  display: flex; }
+  .inicio-box:nth-child(odd) {
+    background-color: #0091e6;
+    flex-direction: row-reverse; }
+
+.index-titulo {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.flex {
+  background-color: red;
+  width: 100px;
+  height: 100px;
+  border: 1em solid black;
+  margin: 1em; }
+
 .titulo {
   display: flex;
   background-color: blue;
