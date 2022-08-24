@@ -14,3 +14,18 @@ footer{
     border-bottom: 0.3em solid blue;
     display: none;
 }
+
+//404//
+.footer-404{
+    padding: 1em;
+    div{
+        padding: 1em;
+        tr td{
+            padding: 0.2em;
+            a{
+                padding-left: 30px;
+                text-decoration:none;
+            }
+        }
+    }
+}

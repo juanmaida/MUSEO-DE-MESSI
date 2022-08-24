@@ -12,6 +12,16 @@ footer {
   border-bottom: 0.3em solid blue;
   display: none; }
 
+.footer-404 {
+  padding: 1em; }
+  .footer-404 div {
+    padding: 1em; }
+    .footer-404 div tr td {
+      padding: 0.2em; }
+      .footer-404 div tr td a {
+        padding-left: 30px;
+        text-decoration: none; }
+
 .vista {
   display: none; }
 
@@ -150,6 +160,24 @@ footer {
   text-align: center; }
   .index-titulo h1 {
     font-size: 100px; }
+
+.error-404 {
+  background-image: radial-gradient(circle at 120.71% 50%, #ffff2b 0, #e6fe32 10%, #c8f83b 20%, #a9f045 30%, #87e54e 40%, #63d855 50%, #39ca5b 60%, #00be62 70%, #00b369 80%, #00aa70 90%, #00a277 100%); }
+  .error-404 p {
+    font-size: 3em; }
+  .error-404 .texto {
+    font-size: 1.5em;
+    height: 200px;
+    width: 50vw;
+    color: blue; }
+  .error-404 img {
+    width: 100px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    display: block; }
+
+.boton {
+  text-decoration: none; }
 
 .titulo {
   display: flex;

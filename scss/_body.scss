@@ -60,3 +60,25 @@
         }
 }
 
+//404//
+.error-404{
+    background-image: radial-gradient(circle at 120.71% 50%, #ffff2b 0, #e6fe32 10%, #c8f83b 20%, #a9f045 30%, #87e54e 40%, #63d855 50%, #39ca5b 60%, #00be62 70%, #00b369 80%, #00aa70 90%, #00a277 100%);    
+    p{
+        font-size: 3em;
+    }
+    .texto{
+    font-size: 1.5em;
+    height: 200px;
+    width: 50vw;
+    color: blue;}
+    img{
+        width: 100px;
+        margin-bottom: 10px;
+        margin-left: auto;
+        display: block;
+    }
+}
+
+.boton{
+    text-decoration:none;
+}
